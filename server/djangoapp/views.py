@@ -19,6 +19,7 @@ from .populate import initiate
 
 from .restapis import get_request, analyze_review_sentiments, post_review
 
+import requests
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 
